@@ -1,0 +1,6 @@
+streamlit>=1.32.0
+numpy>=1.24.0
+pandas>=2.0.0
+tensorflow>=2.15.0; sys_platform != 'darwin' or platform_machine != 'arm64'
+tensorflow-macos>=2.15.0; sys_platform == 'darwin' and platform_machine == 'arm64'
+gunicorn>=21.2.0
